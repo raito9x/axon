@@ -1,0 +1,6 @@
+To build image
+docker build . -t axon
+
+To run image
+docker run -p8080:80 axon -name axon
+
